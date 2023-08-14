@@ -1,0 +1,17 @@
+{
+    "name": "ifsp/tcc",
+    "autoload": {
+        "psr-4": {
+            "Ifsp\\Tcc\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mariaaaaaahn",
+            "email": "pontinm758@gmail.com"
+        }
+    ],
+    "require": {
+        "cboden/ratchet": "^0.4.4"
+    }
+}
