@@ -1,0 +1,75 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.chat-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f0f5f0; /* Verde pastel */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #b0dab0; /* Borda verde claro */
+    position: relative; /* Para posicionar os emojis */
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoPjH1SQcAZXuT3jEJoH1byVrN2Zwl_J408OOIg5YqoA&s"); 
+    background-size: 40px 40px; /* Tamanho do emoji */
+}
+
+#chat-box {
+    height: 400px;
+    border: 1px solid #b0dab0; /* Borda verde claro */
+    margin-bottom: 15px;
+    overflow-y: scroll;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.message {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #e0ebeb; /* Fundo das mensagens */
+    border: 1px solid #b0dab0; /* Borda verde claro */
+}
+
+.time {
+    color: #888;
+    font-size: 12px;
+}
+
+#message {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #b0dab0; /* Borda verde claro */
+    border-radius: 5px;
+    outline: none;
+}
+
+#send-btn {
+    padding: 12px 25px;
+    background-color: #a0d0a0; /* Verde pastel mais claro */
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#send-btn:hover {
+    background-color: #80b080; /* Tom mais escuro ao passar o mouse */
+}
+
+/* Estilos para telas menores (tablets e celulares) */
+@media screen and (max-width: 768px) {
+    .chat-container {
+        width: 90%;
+    }
+
+    #chat-box {
+        height: 300px;
+    }
+}
